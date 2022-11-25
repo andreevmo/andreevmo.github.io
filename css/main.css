@@ -1,29 +1,59 @@
+html {
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+}
+
 body {
-    font-family: sans-serif;
-    line-height: 1.5;
-  
-    background-color: #f9f9f9;
-    color: #333333;
-  
-    width: 980px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 0;
-  }
-  
-  main > h2 {
-    text-align: center;
-    font-size: 25px;
-  }
+    background: radial-gradient(#ffffff, #92fafa);
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-  #aboutMe > div {
+.nav-bar {
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    font-size: 1.5em;
+    justify-content: space-between;
+}
+
+.display-flex {
     display: flex;
-  }
+}
 
-  #aboutMe > div > p {
-    padding-left: 20px;
-  }
+.nav-element {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.content {
+    margin: 10% 20% 10% 20%;
+    font-size: 1.25em;
+    
+}
+
+.icon {
+    width: 100px;
+    margin: 50px 35px 50px 35px;
+}
+
+.icon-link {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+a:visited {
+    color:unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-project {
+    margin: auto;
+}
